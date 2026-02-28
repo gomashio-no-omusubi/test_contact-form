@@ -21,7 +21,7 @@ docker-compose up -d --build
 
 ### 2. Laravel環境構築
 
-コンテナ内で以下のコマンドを順番に実行してください。
+コンテナ内で以下のコマンドを実行し、アプリをセットアップします。
 
 ```bash
 # 1. コンテナに入る
@@ -45,16 +45,21 @@ php artisan db:seed
 
 ## 開発環境
 
-- **お問い合わせ画面** : http://localhost/
-- **ユーザー登録** : http://localhost/register
-- **phpMyAdmin** : http://localhost:8080/
+### アクセスURL
 
-- **ユーザー登録**: [http://localhost/register](http://localhost/register)
+- **お問い合わせ画面** : http://localhost/
+- **ユーザー登録画面** : http://localhost/register
+- **phpMyAdmin** : http://localhost:8080/
   - ※初期ユーザーは作成されませんので、こちらから新規登録を行ってください。
-- **テスト用ログイン情報**:
-  - `php artisan db:seed` 実行により以下のアカウントが作成されます。
-  - メールアドレス: test@example.com
-  - パスワード: password
+
+### テスト用ログイン
+
+`php artisan db:seed` 実行により、以下のアカウントが作成されます。
+
+| 項目               | 内容               |
+| :----------------- | :----------------- |
+| **メールアドレス** | `test@example.com` |
+| **パスワード**     | `password`         |
 
 ## 使用技術(実行環境)
 
