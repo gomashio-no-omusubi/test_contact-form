@@ -50,16 +50,6 @@ php artisan db:seed
 - **お問い合わせ画面** : http://localhost/
 - **ユーザー登録画面** : http://localhost/register
 - **phpMyAdmin** : http://localhost:8080/
-  - ※初期ユーザーは作成されませんので、こちらから新規登録を行ってください。
-
-### テスト用ログイン
-
-`php artisan db:seed` 実行により、以下のアカウントが作成されます。
-
-| 項目               | 内容               |
-| :----------------- | :----------------- |
-| **メールアドレス** | `test@example.com` |
-| **パスワード**     | `password`         |
 
 ## 使用技術(実行環境)
 
@@ -68,3 +58,7 @@ php artisan db:seed
 - **jquery** :
 - **MySQL** : 8.0.26
 - **nginx** : 1.21.1
+
+## ER図
+
+![ER図](./diagram.png)

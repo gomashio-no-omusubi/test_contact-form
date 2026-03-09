@@ -1,0 +1,79 @@
+.confirm-form__content {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+}
+
+.confirm-form__heading {
+    text-align: center;
+    color: #8b7969;
+}
+
+.confirm-form__heading h2 {
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.confirm-table {
+    border: solid 1px #f4f4f4;
+    font-size: 14px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-group {
+    min-height: 50px;
+    display: flex;
+    border-bottom: solid 1px #f4f4f4;
+    align-items: center;
+}
+
+.label{
+    background-color: #baa899;
+    color: #fff;
+    width: 30%;
+    min-height: 50px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    color: #8b7969;
+    width: 70%;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.form__button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.form__button-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 35px;
+    text-decoration: none;
+    border: none;
+    border-radius: 1px;
+    background-color: #8b7969;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn-edit {
+    color: #8b7969;
+    margin-left: 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    text-decoration: underline;
+}

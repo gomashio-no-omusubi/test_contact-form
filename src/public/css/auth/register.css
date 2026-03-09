@@ -1,0 +1,90 @@
+.page-wrapper {
+    background-color: #f5f0eb;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.register-form__content {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+}
+
+.register-form__heading{
+    text-align: center;
+    color: #8b7969;
+}
+
+.register-form__heading h2 {
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-top: 40px;
+    background-color: #fff;
+    border: solid 1px #baa899;
+    border-radius: 5px;
+    padding: 15px 10px;
+    max-width: 500px;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.form-card {
+    height: 100vh;
+}
+
+.form-group {
+    margin: 40px auto;
+    width: 70%;
+    font-size: 14px;
+}
+
+.form-group label {
+    display: inline-block;
+    text-align: left;
+    color: #8b7969;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.input-wrapper input {
+    background-color: #f4f4f4;
+    color: #8b7969;
+    border-radius: 3px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.form__error {
+    position: absolute;
+    color: #ff0000;
+    text-align: left;
+    min-height: 18px;
+    font-size: 12px;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 35px;
+    text-decoration: none;
+    border: none;
+    border-radius: 1px;
+    background-color: #8b7969;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+}

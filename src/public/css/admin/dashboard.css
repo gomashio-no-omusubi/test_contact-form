@@ -1,0 +1,258 @@
+.dashboard-form__content {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+}
+
+.dashboard-form__heading {
+    text-align: center;
+    color: #8b7969;
+    margin-bottom: 30px;
+}
+
+.dashboard-form__heading h2 {
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.search-form__content {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.name-email-box,
+.select-box,
+.calendar-box {
+    height: 40px;
+    background-color: #f4f4f4;
+    border: solid 1px #baa899;
+    color: #8b7969;
+    font-size: 14px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.select-box,
+.calendar-box {
+    cursor: pointer;
+}
+
+.name-email-box {
+    width: 350px;
+}
+
+.search-form__item:nth-child(2) .select-box {
+    width: 100px;
+}
+
+.search-form__item:nth-child(3) .select-box {
+    width: 200px;
+}
+
+.calendar-box {
+    width: 180px;
+    cursor: pointer;
+}
+
+.btn-search {
+    height: 40px;
+    border: none;
+    background-color: #8b7969;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 30px;
+}
+
+.btn-reset {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 40px;
+    background-color: #baa899;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.table-control {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.table-control a{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.btn-export {
+    display: flex;
+    text-decoration: none;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #8b7969;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.admin-table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.admin-table thead th{
+    background-color: #8b7969;
+    color: #fff;
+    text-align: left;
+    padding: 15px 30px;
+}
+
+.admin-table td {
+    padding: 15px 30px;
+    border-bottom: 1px solid #eee;
+    color: #8b7969;
+    background-color: #fff;
+}
+
+.admin-table tr:hover td {
+    background-color: #f9f9f9;
+}
+
+.btn-detail {
+    background-color: #fff;
+    border: 1px solid #e0dfde;
+    color: #baa899;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999 !important;
+}
+
+.modal-content {
+    background: #fff !important;
+    border: solid 2px #8b7969;
+    width: 90%;
+    max-width: 650px;
+    padding: 60px 50px 40px;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    margin: 0 !important;
+}
+
+.modal-detail-list {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.modal-detail-row {
+    display: flex;
+    padding: 15px 0;
+    align-items: flex-start;
+}
+
+.modal-detail-label {
+    width: 180px;
+    flex-shrink: 0;
+    color: #8b7969;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.modal-detail-value {
+    flex-grow: 1;
+    color: #8b7969;
+    font-size: 15px;
+    line-height: 1.6;
+    word-break: break-all;
+}
+
+.close-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #8b7969;
+    border: 1px solid #8b7969;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.modal-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-delete {
+    background-color: #ba370d;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.pagination__inner {
+    display: flex;
+}
+
+.pagination__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #8b7969;
+    font-size: 14px;
+}
+
+.pagination__item--active {
+    background-color: #8b7969;
+    color: #fff;
+    border-color: #8b7969;
+}
